@@ -10,6 +10,8 @@ public class SingletonPatternTest {
         // below statement would work
         Singleton singleton = Singleton.getInstance();
 
+        System.out.println(singleton);
+
     }
 
 }
